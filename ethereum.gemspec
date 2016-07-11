@@ -31,6 +31,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "pry"
 
   spec.add_dependency "activesupport"
-  spec.add_dependency "sha3", "~> 0.2.6"
-  # spec.add_dependency "sha3-pure-ruby", "~>0.1.1"
+  spec.add_dependency "digest-sha3"
 end
